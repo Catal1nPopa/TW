@@ -1,0 +1,79 @@
+﻿
+@{
+     ViewBag.Title = "Portfolio";
+     Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+
+<main id="main">
+
+     <!-- ======= Breadcrumbs ======= -->
+     <section id="breadcrumbs" class="breadcrumbs">
+          <div class="container">
+
+               <div class="d-flex justify-content-between align-items-center">
+                    <h2>Portfolio Details</h2>
+                    <ol>
+                         <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                         <li>Portfolio Details</li>
+                    </ol>
+               </div>
+
+          </div>
+     </section><!-- End Breadcrumbs -->
+     <!-- ======= Portfolio Details Section ======= -->
+     <section id="portfolio-details" class="portfolio-details">
+          <div class="container">
+
+               <div class="row gy-4">
+
+                    <div class="col-lg-8">
+                         <div class="portfolio-details-slider swiper">
+                              <div class="swiper-wrapper align-items-center">
+
+                                   <div class="swiper-slide">
+                                        <img src="~/assets/img/portfolio/easybreath4.jpg" alt="">
+                                   </div>
+
+                                   <div class="swiper-slide">
+                                        <img src="~/assets/img/portfolio/axj74gvcxd2w.jpg" alt="">
+                                   </div>
+
+                                   <div class="swiper-slide">
+                                        <img src="~/assets/img/portfolio/easybreath15jpg.jpg" alt="">
+                                   </div>
+
+                              </div>
+                              <div class="swiper-pagination"></div>
+                         </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                         <div class="portfolio-info">
+                              <h3>Project information</h3>
+                              <ul>
+                                   <li><strong>Category</strong>: Web platform </li>
+                                   <li><strong>Client</strong>: UTM University</li>
+                                   <li><strong>Project date</strong>: 01 March, 2023</li>
+                                   <li><strong>Project URL</strong>: <a href="#">www.easybreath.com</a></li>
+                              </ul>
+                         </div>
+                         <div class="portfolio-description">
+                              <h2>EasyBreath</h2>
+                              <p>
+                                   Web platform that facilitates user experience by providing information and useful health resources.
+                              </p>
+                                   <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                   <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                   <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                   <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                                   <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                         </div>
+                    </div>
+
+               </div>
+
+          </div>
+     </section><!-- End Portfolio Details Section -->
+
+</main><!-- End #main -->

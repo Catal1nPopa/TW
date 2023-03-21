@@ -1,0 +1,54 @@
+﻿
+@{
+     ViewBag.Title = "Vitamins";
+     Layout = "~/Views/_LayoutPage1.cshtml";
+}
+<section id="breadcrumbs" class="breadcrumbs">
+     <div class="container">
+
+          <div class="d-flex justify-content-between align-items-center">
+               <h2>Vitamins</h2>
+               <ol>
+                    <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                    <li>Vitamins</li>
+               </ol>
+          </div>
+
+     </div>
+</section>
+
+<section>
+     <header>
+          <h1>Vitamins and Supplements for a Healthy Life</h1>
+          <nav>
+               <ul>
+                    <li><a href="#vitamins">Vitamins</a></li>
+                    <li><a href="#supplements">Supplements</a></li>
+               </ul>
+          </nav>
+     </header>
+     <main>
+          <section id="vitamins">
+               <h2>Vitamins</h2>
+               <p>Vitamins are essential nutrients that our bodies need to function properly. Here are some of the most important vitamins:</p>
+               <ul>
+                    <li>Vitamin A</li>
+                    <li>Vitamin C</li>
+                    <li>Vitamin D</li>
+                    <li>Vitamin E</li>
+                    <li>Vitamin K</li>
+               </ul>
+          </section>
+          <section id="supplements">
+               <h2>Supplements</h2>
+               <p>Supplements can help fill in any nutritional gaps in your diet. Here are some popular supplements:</p>
+               <ul>
+                    <li>Probiotics</li>
+                    <li>Omega-3 fatty acids</li>
+                    <li>Calcium</li>
+                    <li>Magnesium</li>
+                    <li>Vitamin B12</li>
+               </ul>
+          </section>
+     </main>
+</section>
